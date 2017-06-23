@@ -1,4 +1,4 @@
-# MLDS_Final_Project_Adaptive_Batch_Size_with_
+# MLDS_Final_Project_Adaptive_Batch_Size_with_Epoch
 NTU MLDS Course Final Project
 
 Environment
