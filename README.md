@@ -3,8 +3,8 @@ NTU MLDS Course Final Project
 
 Environment
 
-Python: 2.7
-Keras: 2.0.4
+Python: 2.7   
+Keras: 2.0.4   
 
 Usage
 
@@ -16,13 +16,13 @@ and unzip it under the datasets folder
 
 there are five dynamic-batch-size-mode can do:
 
-constant batch size: constant
-linear: linear
-exponential: exp
-gaussian: gau
+constant batch size: constant      
+linear: linear   
+exponential: exp     
+gaussian: gau     
 cosine: cos
 
-and you can use different batch size by appending the batch size after the mode
-e.g.: 
+and you can use different batch size by appending the batch size after the mode   
+e.g.:    
 python fish_classifier_dynamic_batch.py --dataset mnist --batch_type linear 256
 
