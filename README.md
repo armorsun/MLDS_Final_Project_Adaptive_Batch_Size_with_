@@ -27,9 +27,9 @@ e.g.:
 training on fish dataset
 	python fish_classifier_dynamic_batch.py --dataset fish --batch_type linear 256
 
-training on mnist dataset  
+training on mnist dataset    
 	python fish_classifier_dynamic_batch.py --batch_type constant 32   
 
-training on cifar-1- dataset
+training on cifar-1- dataset   
 	python fish_classifier_dynamic_batch.py --batch_type gau 256  
 
