@@ -24,5 +24,12 @@ cosine: cos
 
 and you can use different batch size by appending the batch size after the mode   
 e.g.:    
-	python fish_classifier_dynamic_batch.py --dataset mnist --batch_type linear 256
+training on fish dataset
+	python fish_classifier_dynamic_batch.py --dataset fish --batch_type linear 256
+
+training on mnist dataset  
+	python fish_classifier_dynamic_batch.py --batch_type constant 32   
+
+training on cifar-1- dataset
+	python fish_classifier_dynamic_batch.py --batch_type gau 256  
 
